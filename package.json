@@ -1,0 +1,28 @@
+{
+  "name": "apinodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DiegoMCMartins/apinodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DiegoMCMartins/apinodejs/issues"
+  },
+  "homepage": "https://github.com/DiegoMCMartins/apinodejs#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "esm": "^3.2.25",
+    "jsonwebtoken": "^8.5.1",
+    "restify": "^8.5.1"
+  }
+}
