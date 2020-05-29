@@ -86,8 +86,8 @@ server.get('/login', async (req, res) => {
 server.get('/info', authMiddleware, async (req, res) => {
   try {
     const {name, email} = req.auth
-    
-    res.send({name, email})
+    const user = {name, email}
+    res.send({user})
   } catch (error) {
     res.send(error)
   }
@@ -97,7 +97,7 @@ server.get('/reservas', authMiddleware, async (req, res) => {
   try {
     const { reservas } = req.auth
 
-    res.send(reservas)
+    res.send({reservas})
   } catch (error) {
     res.send(error)
   }
