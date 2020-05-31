@@ -103,4 +103,8 @@ server.get('/reservas', authMiddleware, async (req, res) => {
   }
 })
 
+server.get('/validate-token', authMiddleware, async (req, res) => {
+  res.send(400, 'validy token');
+})
+
 server.start();
