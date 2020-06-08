@@ -130,12 +130,7 @@
       "name": "Marcelo Samuel Thomas Lopes",
       "email": "marcelo@gmail.com",
       "password": "marcelo",
-      "reservas": [
-        {
-          "checkin": "05/05/2020",
-          "codigo": 8712
-        }
-      ]
+      "reservas": []
     }
   ]
 }
